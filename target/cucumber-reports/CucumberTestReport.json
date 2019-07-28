@@ -1,0 +1,154 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8567839433,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.SetUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Title of your scenario",
+        "description": "",
+        "id": "title-of-your-feature;title-of-your-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 393899905,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 98443747,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Open application",
+            "match": {
+              "location": "LoginSteps.open_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 206759937,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Login with valid credentials",
+            "match": {
+              "location": "LoginSteps.login_with_valid_credentials()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 48321,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Verify Home Page",
+            "match": {
+              "location": "LoginSteps.verify_Home_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8593071350,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.SetUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Title of your scenario",
+        "description": "",
+        "id": "title-of-your-feature;title-of-your-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 206868917,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 57060,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Open application",
+            "match": {
+              "location": "LoginSteps.open_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 206599552,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Login with valid credentials",
+            "match": {
+              "location": "LoginSteps.login_with_valid_credentials()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 57061,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Verify Home Page",
+            "match": {
+              "location": "LoginSteps.verify_Home_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "I want to use this template for my feature file",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "Login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@tag"
+      }
+    ]
+  }
+]
