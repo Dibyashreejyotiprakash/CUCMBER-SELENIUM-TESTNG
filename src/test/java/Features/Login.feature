@@ -1,18 +1,26 @@
-@tag
-Feature: Title of your feature
-  I want to use this template for my feature file
+Feature: Orange HRM Login validations
+  Validation for login
 
-  
-  Scenario: Title of your scenario
-    Given Open application
-    Then Login with valid credentials
+Background:
+	Given Open application
+
+@smoke
+ Scenario: Login with valid credentials
+    When Login with valid username "admin" password "admin123"
     Then Verify Home Page
     
-
-
+@regression
+Scenario: Login with in-valid credentials
+    Then Login with invalid username "admin" password "admin1234"
+    
+@regression
+Scenario: Login with testdriven data
+		When Login with valid credentials
+		|admin|admin123|
+    Then Verify Home Page
+    
+    
+	
 
   
-  Scenario: Title of your scenario
-    Given Open application
-    Then Login with valid credentials
-    Then Verify Home Page
+  

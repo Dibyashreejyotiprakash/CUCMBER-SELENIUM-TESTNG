@@ -2,34 +2,34 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="18559" started-at="2019-07-27T10:40:14Z" finished-at="2019-07-27T10:40:32Z">
+  <suite name="Default suite" duration-ms="52076" started-at="2020-05-29T16:30:49Z" finished-at="2020-05-29T16:31:41Z">
     <groups>
       <group name="cucumber">
-        <method signature="VerifyLoginLogoutRunner$TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:TestRunner.VerifyLoginLogoutRunner$TestRunner@73846619]" name="feature" class="TestRunner.VerifyLoginLogoutRunner$TestRunner"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:TestRunner.VerifyLoginLogoutRunner@29ca901e]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="18559" started-at="2019-07-27T10:40:14Z" finished-at="2019-07-27T10:40:32Z">
-      <class name="TestRunner.VerifyLoginLogoutRunner$TestRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:TestRunner.VerifyLoginLogoutRunner$TestRunner@73846619]" name="setUpClass" is-config="true" duration-ms="175" started-at="2019-07-27T10:40:14Z" finished-at="2019-07-27T10:40:14Z">
+    <test name="Default test" duration-ms="52076" started-at="2020-05-29T16:30:49Z" finished-at="2020-05-29T16:31:41Z">
+      <class name="TestRunner.VerifyLoginLogoutRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:TestRunner.VerifyLoginLogoutRunner@29ca901e]" name="setUpClass" is-config="true" duration-ms="190" started-at="2020-05-29T16:30:49Z" finished-at="2020-05-29T16:30:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:TestRunner.VerifyLoginLogoutRunner$TestRunner@73846619]" name="feature" duration-ms="18304" started-at="2019-07-27T10:40:14Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-07-27T10:40:32Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:TestRunner.VerifyLoginLogoutRunner@29ca901e]" name="feature" duration-ms="51793" started-at="2020-05-29T16:30:49Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-05-29T16:31:41Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Title of your feature]]>
+                <![CDATA[Orange HRM Login validations]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:TestRunner.VerifyLoginLogoutRunner$TestRunner@73846619]" name="tearDownClass" is-config="true" duration-ms="11" started-at="2019-07-27T10:40:32Z" finished-at="2019-07-27T10:40:32Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:TestRunner.VerifyLoginLogoutRunner@29ca901e]" name="tearDownClass" is-config="true" duration-ms="17" started-at="2020-05-29T16:31:41Z" finished-at="2020-05-29T16:31:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- TestRunner.VerifyLoginLogoutRunner$TestRunner -->
+      </class> <!-- TestRunner.VerifyLoginLogoutRunner -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
